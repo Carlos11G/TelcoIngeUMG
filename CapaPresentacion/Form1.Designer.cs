@@ -39,6 +39,8 @@
             this.kryptonTextBox1 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.buttonSpecAny1 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.kryptonTextBox2 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.kryptonTextBox3 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.buttonSpecAny2 = new ComponentFactory.Krypton.Toolkit.ButtonSpecAny();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1.Panel1)).BeginInit();
@@ -128,6 +130,7 @@
             // 
             // kryptonHeaderGroup2.Panel
             // 
+            this.kryptonHeaderGroup2.Panel.Controls.Add(this.kryptonTextBox3);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.kryptonTextBox2);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.kryptonTextBox1);
             this.kryptonHeaderGroup2.Size = new System.Drawing.Size(264, 471);
@@ -190,6 +193,19 @@
             this.kryptonTextBox2.TabIndex = 1;
             this.kryptonTextBox2.Text = "kryptonTextBox2";
             // 
+            // kryptonTextBox3
+            // 
+            this.kryptonTextBox3.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
+            this.buttonSpecAny2});
+            this.kryptonTextBox3.Location = new System.Drawing.Point(58, 103);
+            this.kryptonTextBox3.Name = "kryptonTextBox3";
+            this.kryptonTextBox3.Size = new System.Drawing.Size(164, 27);
+            this.kryptonTextBox3.TabIndex = 2;
+            // 
+            // buttonSpecAny2
+            // 
+            this.buttonSpecAny2.UniqueName = "8D65777994F3469EBF8E14AF16C84048";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -235,6 +251,8 @@
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox1;
         private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny1;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox2;
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox3;
+        private ComponentFactory.Krypton.Toolkit.ButtonSpecAny buttonSpecAny2;
     }
 }
 
