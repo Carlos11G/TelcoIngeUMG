@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class Form1 : Form
+    public partial class FRMproveedores : Form
     {
-        public Form1()
+        public FRMproveedores()
         {
             InitializeComponent();
-        }
-
-        private void kryptonDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

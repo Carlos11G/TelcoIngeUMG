@@ -171,16 +171,34 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FRMempleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FRMempleados.Designer.cs">
+      <DependentUpon>FRMempleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMclientes.Designer.cs">
+      <DependentUpon>FRMclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMproveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMproveedores.Designer.cs">
+      <DependentUpon>FRMproveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FRMclientes.resx">
+      <DependentUpon>FRMclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMempleados.resx">
+      <DependentUpon>FRMempleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMproveedores.resx">
+      <DependentUpon>FRMproveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -208,6 +226,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Captura de pantalla 2025-07-12 101950.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />
